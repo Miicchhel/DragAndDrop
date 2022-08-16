@@ -1,0 +1,45 @@
+#container {
+  width: auto;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 255, 0.253);
+}
+
+.table {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 255, 0.048);
+}
+
+span {
+  font-weight: 700;
+  color:#32444c;
+}
+
+.box {
+  width: 150px;
+  height: 120px;
+  margin: 5px;
+  border: 3px solid #666;
+  background-color: #ddd;
+  cursor: move;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box.over {
+  border: 3px dotted #666;
+}
+
+.box:hover {
+  background-color: rgb(222, 184, 135);
+}
